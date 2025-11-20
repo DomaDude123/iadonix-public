@@ -7,6 +7,7 @@
 
         <link rel="icon" href="/favicon.ico">
         <link rel="stylesheet" href="/style.css?v=3">
+        <script src="/script.js"></script>
 
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -27,54 +28,75 @@
                 </ul>
             </div>
 
-<h1 class="title">Spare Time</h1>
+            <h1 class="title">Spare Time</h1>
 
             <p class="content">
-                A few things I work on in my spare time related to homelabs, cloud, and general tinkering.
+            Things I like to do outside of academics and work.
             </p>
             <br>
 
             <!-- === Self Hosting / Tinkering === -->
-            <h3 class="title">Self Hosting & Tinkering</h3>
+            <h3 class="title">Self Hosting & Cloud</h3>
 
             <div class="xp-body">
-
                 <p class="xp-desc">
-                    I’ve always been interested in self-hosting and homelab work. Much of my tinkering
-                    uses an old computer running headless Debian Linux as a small Homeserver/NAS.
+                I’ve always been interested in self-hosting and homelab work. Most of my tinkering
+                happens on an old computer running headless Debian Linux, which I use as a small
+                home server and NAS.
                 </p>
 
                 <ul class="xp-list">
-                    <li>Deployed a WireGuard VPN to allow whitelisted clients secure remote access</li>
-                    <li>Hosted a local Bitwarden instance for password management</li>
-                    <li>Configured Pi-hole as local DNS along with Unbound as a recursive resolver</li>
-                    <li>Hosted a Minecraft server accessible only to VPN-connected users</li>
+                    <li>WireGuard VPN for remote access</li>
+                    <li>Local Bitwarden instance for password management</li>
+                    <li>Pi-hole with Unbound for local DNS + recursive resolution</li>
+                    <li>Always a WIP</li>
                 </ul>
 
-                <p class="content"><em>Skills:</em> Linux, Bash, Python, Networking, Git, Docker, Windows, Security</p>
+                <p class="xp-desc">
+                I've also done some playing around with cloud. AWS Free Tier rocks. 
+                </p>
+
             </div>
             <br>
 
 
-            <!-- === AWS === -->
-            <h3 class="title">AWS & Cloud</h3>
+            <!-- === Books === -->
+            <h3 class="title">Books I'm Reading</h3>
 
             <div class="xp-body">
-
                 <p class="xp-desc">
-                    I enjoy experimenting with AWS Free Tier services and currently host this website
-                    on AWS infrastructure. I'm also working toward earning cloud certifications.
+                I've been trying to get more into reading - both technical and not. Below are some books that I have recently read or are currently reading.
                 </p>
 
                 <ul class="xp-list">
-                    <li>Deployed small AWS services for hosting and testing</li>
-                    <li>Experimented with IAM, VPC setup, networking, and EC2</li>
-                    <li>Exploring cloud security best practices</li>
+                    <li><strong>Advanced Penetration Testing</strong> - Will Allsopp (ongoing)</li>
+                    <li><strong>Tasting History (cookbook)</strong> - Max Miller (ongoing) (I suck at cooking)</li>
+                    <li><strong>1984</strong> - George Orwell (finished)</li>
+                    <li><strong>How Linux Works</strong> - Brian Ward (finished)</li>
                 </ul>
 
-                <p class="content"><em>Skills:</em> Linux, Bash, Git, Networking, Cloud Security</p>
             </div>
             <br>
+
+
+            <!-- === Games === -->
+            <h3 class="title">Games I Play</h3>
+
+            <div class="xp-body">
+                <p class="xp-desc">
+                I like playing games when I get the chance.
+                </p>
+            </div>
+
+            <div id="steam-account"></div>
+
+            <div id="steam-section">
+                <h4>Recently Played Games</h4>
+                <div id="steam-games" class="steam"></div>
+            </div>
+
+
+
 
             <pre class="footer"><code>
 source: <a class="alt" href="https://github.com/DomaDude123/iadonix-public" target="_blank">github.com/iadonix/iadonix-public</a>
